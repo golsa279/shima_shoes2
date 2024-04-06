@@ -1,0 +1,160 @@
+body{
+    background-color: rgb(52, 35, 199);
+    margin: 0;
+}
+#menu1{
+    background-color:  rgb(255, 255, 255);
+    display: block;
+    padding: 74px;
+    margin: 0; 
+    position: relative;  
+}
+#menu2{
+    background-color: rgb(233, 231, 231);
+    display: block;
+    padding: 340px;
+    margin: 0; 
+    position: relative;  
+}
+#call{
+    background-color: rgb(137, 214, 170);
+    display: inline-block;
+    margin:0;
+    padding:15px;
+    position:absolute;
+    left: 280px;
+    top: 30px;
+    width: 135px;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;  
+    
+
+}
+#shop{
+    background-color: rgb(28, 114, 67);
+    margin:0;
+    padding:25px;
+    position:absolute;
+    left: 485px;
+    top: 30px;
+    border-radius: 15px;
+}
+#sabtnam{
+    background-color:  rgb(255, 255, 255);
+    display: inline-block;
+    margin:0;
+    position:absolute;
+    left: 565px;
+    top: 30px;
+    width: 135px;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+#jostojoo{
+    background-color: rgb(224, 222, 222);
+    display: inline-block;
+    margin:0;
+    position:absolute;
+    left: 740px;
+    top: 30px;
+    width: 440px;
+    padding:15px;
+    border-radius: 15px;
+    text-align: right;
+    text-decoration: none;
+
+}
+#logo{
+    display: inline-block;
+    margin:0;
+    position:absolute;
+    left: 1230px;
+    top: 18px;
+    width: 430px;
+    padding:0;
+    border-radius: 15px;
+
+}
+#shoab{
+    background-color: rgb(28, 114, 67);
+    display: inline-block;
+    margin:0;
+    padding:8px;
+    position:absolute;
+    left: 290px;
+    top: 107px;
+    width: 120px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none; 
+    color: aliceblue; 
+
+}
+.guide{
+    background-color:  rgb(255, 255, 255);
+    display: inline-block;
+    margin:0;
+    padding: 5px;
+    position:absolute;
+    width: 100px;
+    top: 110px;
+    width: 120px;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+
+}
+#rahnama{
+    left: 430px;
+}
+#lavazem{
+    left: 640px;
+
+}
+#vixhe{
+    left: 760px;
+}
+#kaf{
+    left: 880px;
+}
+#children{
+    left: 990px;
+}
+#kif{
+    left: 1090px;
+}
+#women{
+    left: 1200px;
+}
+#men{
+    left: 1310px;
+}
+#left_pic{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 20px;
+    left: 280px;
+    border-radius: 30px;
+}
+#up_pic{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 20px;
+    left: 1025px;
+    border-radius: 30px;
+}
+#down_pic{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 250px;
+    left: 1025px;
+    border-radius: 30px;
+}
+
+
+
