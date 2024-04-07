@@ -12,9 +12,17 @@ body{
 #menu2{
     background-color: rgb(233, 231, 231);
     display: block;
-    padding: 340px;
+    padding: 440px;
     margin: 0; 
     position: relative;  
+}
+#menu3{
+    background-color: rgb(28, 114, 67);
+    display: block;
+    padding: 220px 0;
+    margin: 0; 
+    position: relative; 
+   
 }
 #call{
     background-color: rgb(137, 214, 170);
@@ -121,7 +129,9 @@ body{
 }
 #children{
     left: 990px;
+    top: 92px;
 }
+
 #kif{
     left: 1090px;
 }
@@ -131,13 +141,22 @@ body{
 #men{
     left: 1310px;
 }
+.menu1>ul ul{
+    display: none;
+}
+.menu1 ul li:hover{
+    background-color: aquamarine;
+}
+.menu1 ul li:hover>ul{
+    display: initial;
+}
 #left_pic{
     padding: 0;
     margin: 0;
     position: absolute;
     top: 20px;
     left: 280px;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 #up_pic{
     padding: 0;
@@ -145,16 +164,76 @@ body{
     position: absolute;
     top: 20px;
     left: 1025px;
-    border-radius: 30px;
+    border-radius: 15px;
+    width: 380px;
+   
 }
 #down_pic{
     padding: 0;
     margin: 0;
     position: absolute;
-    top: 250px;
+    top: 260px;
     left: 1025px;
-    border-radius: 30px;
+    border-radius: 15px;
+    width: 380px;
+    
 }
+#message{
+    background-color: rgb(27, 86, 54);
+    display: inline-block;
+    margin:0;
+    padding: 0;
+    position:fixed;
+    width: 100px;
+    top:730px;
+    left: 40px;
+    width: 60px;
+    border-radius: 150px;
+    
+}
+#dastebandi{
+    color: rgb(41, 145, 88);
+    text-align: center;
+    text-decoration: none;
+    font-size: xxx-large;
+    position: absolute;
+    top: 440px;
+    left: 650px;
+}
+.buying{
+    display: inline-block;
+    border: 5px;
+    border-color: black;
+    border-radius: 20px;
+    width: 140px;
+    
 
+}
+#buy{
+    position: absolute;
+    top: 560px;
+    left: 280px;
+
+
+}
+.whiteborder{
+    display: inline-block;
+    background-color:  rgb(255, 255, 255);
+    border-radius: 15px;
+    width: 300px;
+    
+    
+    
+
+
+}
+.buying2{
+    display: inline-block;
+    border-radius: 15px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
 
 
