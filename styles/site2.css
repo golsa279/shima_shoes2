@@ -138,22 +138,33 @@ body{
 #men{
     left: 1310px;
 }
-#menu1>ul ul{
-    display: none;
+#z1{
+    
+    background-color: rgb(112, 227, 156);
+    
 }
-#menu1 ul li:hover{
+#menu1>ul li:hover{
     background-color: rgb(36, 133, 89);
-    /* position: relative; */
+      
 }
-/* #menu1 ul li:hover>ul{
+.menu1 ul li{
+    position: relative;
+}
+#menu1 ul ul{
+    display: none;
+    
+} 
+
+#menu1>ul li:hover>ul{
     display: initial;
     position: absolute;
-    top: 1.2em;
     left: 0;
+    z-index: 10px;
+    
 }
-#menu1 ul li:hover>ul>li{
+#menu1>ul>li:hover>ul>li{
     display: block;
-} */
+}  
 #left_pic{
     padding: 0;
     margin: 0;
@@ -225,11 +236,6 @@ body{
     background-color:  rgb(255, 255, 255);
     border-radius: 15px;
     width: 300px;
-    
-    
-    
-
-
 }
 .buying2{
     display: inline-block;
